@@ -1,0 +1,191 @@
+{
+	"data": [{
+			"features_name": "Formy wyrazowe(Word forms)",
+			"path": "D:/Sasha/subversion/RussianTXT/",
+			"k_features": {
+				"MLPC":3500,
+				"KNN":280,
+				"LinearSVC":3940,
+				"PassiveAggressive":3400,
+				"RandomForest":500,
+				"SGD": 2660
+			}
+		}, {
+			"features_name": "Lematy(Lemmas)",
+			"path": "D:/Sasha/data/dataset_lema_ru/",
+			"k_features": {
+				"MLPC":2500,
+				"KNN":240,
+				"LinearSVC":4000,
+				"PassiveAggressive":4000,
+				"RandomForest":680,
+				"SGD": 4000
+			}
+		}, {
+			"features_name": "2-gramy lematów(2-grams of lemmas)",
+			"path": "D:/Sasha/data/dataset_lema_2_grams_ru/",
+			"k_features": {
+				"MLPC":3500,
+				"KNN":540,
+				"LinearSVC":3900,
+				"PassiveAggressive":2980,
+				"RandomForest":2600,
+				"SGD": 3860
+			}
+		}, {
+			"features_name": "3-gramy lematów(3-grams of lemmas)",
+			"path": "D:/Sasha/data/dataset_lema_3_grams_ru/",
+			"k_features": {
+				"MLPC":3500,
+				"KNN":220,
+				"LinearSVC":3560,
+				"PassiveAggressive":3240,
+				"RandomForest":2060,
+				"SGD": 3520
+			}
+		}, {
+			"features_name": "5-gramy liter form słów(Word forms character 5-grams)",
+			"path": "D:/Sasha/data/dataset_character_5_grams_lema_ru/",
+			"k_features": {
+				"MLPC":3500,
+				"KNN":320,
+				"LinearSVC":3800,
+				"PassiveAggressive":3720,
+				"RandomForest":920,
+				"SGD": 3820
+			}
+		}, {
+			"features_name": "3-gramy liter form słów(Word forms character 3-grams)",
+			"path": "D:/Sasha/data/dataset_character_3_grams_lema_ru/",
+			"k_features": {
+				"MLPC":3500,
+				"KNN":260,
+				"LinearSVC":3680,
+				"PassiveAggressive":3940,
+				"RandomForest":960,
+				"SGD": 3800
+			}
+		}, {
+			"features_name": "5-gramy liter lematów(Words lematized character 5-grams)",
+			"path": "D:/Sasha/data/dataset_character_5_grams_ru/",
+			"k_features": {
+				"MLPC":3500,
+				"KNN":420,
+				"LinearSVC":1880,
+				"PassiveAggressive":3480,
+				"RandomForest":1800,
+				"SGD": 3980
+			}
+		}, {
+			"features_name": "3-gramy liter lematów(Words lematized character 3-grams)",
+			"path": "D:/Sasha/data/dataset_character_3_grams_ru/",
+			"k_features": {
+				"MLPC":3500,
+				"KNN":320,
+				"LinearSVC":3360,
+				"PassiveAggressive":3600,
+				"RandomForest":1460,
+				"SGD": 3800
+			}
+		}, {
+			"features_name": "Części mowy(Part of speach)",
+			"path": "D:/Sasha/data/dataset_pos_ru/",
+			"k_features": {
+				"MLPC":3500,
+				"KNN":320,
+				"LinearSVC":3800,
+				"PassiveAggressive":3720,
+				"RandomForest":920,
+				"SGD": 3820
+			}
+		}, {
+			"features_name": "2-gramy części mowy(Part of speach 2-grams)",
+			"path": "D:/Sasha/data/dataset_pos_2_grams_ru/",
+			"k_features": {
+				"MLPC":3500,
+				"KNN":320,
+				"LinearSVC":3800,
+				"PassiveAggressive":3720,
+				"RandomForest":920,
+				"SGD": 3820
+			}
+		}, {
+			"features_name": "3-gramy części mowy(Part of speach 3-grams)",
+			"path": "D:/Sasha/data/dataset_pos_3_grams_ru/",
+			"k_features": {
+				"MLPC":3500,
+				"KNN":500,
+				"LinearSVC":4000,
+				"PassiveAggressive":1300,
+				"RandomForest":1400,
+				"SGD": 3500
+			}
+		}, {
+			"features_name": "Słowa funkcyjne-lematyzowane(Stop words lematized)",
+			"path": "D:/Sasha/data/dataset_stopwords_lemas_ru/",
+			"k_features": {
+				"MLPC":3500,
+				"KNN":500,
+				"LinearSVC":4000,
+				"PassiveAggressive":1300,
+				"RandomForest":1400,
+				"SGD": 3500
+			}
+		}, {
+			"features_name": "2 gramy słów funkcyjnych lematyzowanych(Stop words lematized 2-grams)",
+			"path": "D:/Sasha/data/dataset_stopwords_lemas_2_grams_ru/",
+			"k_features": {
+				"MLPC":3500,
+				"KNN":500,
+				"LinearSVC":4000,
+				"PassiveAggressive":1300,
+				"RandomForest":1400,
+				"SGD": 3500
+			}
+		}, {
+			"features_name": "3 gramy słów funkcyjnych lematyzowanych(Stop words lematized 3-grams)",
+			"path": "D:/Sasha/data/dataset_stopwords_lemas_3_grams_ru/",
+			"k_features": {
+				"MLPC":3500,
+				"KNN":500,
+				"LinearSVC":4000,
+				"PassiveAggressive":1300,
+				"RandomForest":1400,
+				"SGD": 3500
+			}
+		}, {
+			"features_name": "Słowa funkcyjne-formy słów(Stop words of word forms)",
+			"path": "D:/Sasha/data/dataset_stopwords_ru/",
+			"k_features": {
+				"MLPC":3500,
+				"KNN":500,
+				"LinearSVC":4000,
+				"PassiveAggressive":1300,
+				"RandomForest":1400,
+				"SGD": 3500
+			}
+		}, {
+			"features_name": "2 gramy słów funkcyjnych form słów(Stop words of word forms 2-grams)",
+			"path": "D:/Sasha/data/dataset_stopwords_2_grams_pos_ru/",
+			"k_features": {
+				"MLPC":3500,
+				"KNN":500,
+				"LinearSVC":4000,
+				"PassiveAggressive":1300,
+				"RandomForest":1400,
+				"SGD": 3500
+			}
+		}, {
+			"features_name": "3 gramy słów funkcyjnych form słów(Stop words of word forms 3-grams)",
+			"path": "D:/Sasha/data/dataset_stopwords_3_grams_pos_ru/",
+			"k_features": {
+				"MLPC":3500,
+				"KNN":500,
+				"LinearSVC":4000,
+				"PassiveAggressive":1300,
+				"RandomForest":1400,
+				"SGD": 3500
+			}
+		}
+	]
+}

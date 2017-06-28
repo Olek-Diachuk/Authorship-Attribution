@@ -1,0 +1,40 @@
+﻿{	
+	"data": [ 
+		{
+			"features_name": "3-gramy części mowy",
+			"path": "D:/Sasha/data/dataset_pos_3_grams_ru/",
+			"k_features": {
+				"MLPC":3500,
+				"KNN":500,
+				"LinearSVC":3240,
+				"PassiveAggressive":3960,
+				"RandomForest":640,
+				"SGD": 3960
+			}
+		},
+		{
+			"features_name": "2 gramy słów funkcyjnych(POS tager)",
+			"path": "D:/Sasha/data/dataset_stopwords_lemas_2_grams_ru/",
+			"k_features": {
+				"MLPC":3500,
+				"KNN":200,
+				"LinearSVC":3960,
+				"PassiveAggressive":3940,
+				"RandomForest":1400,
+				"SGD": 4000
+			}
+		}
+	],
+	"output": {
+		"features_name": "5-gramy liter lematów",
+		"path": {
+			"ACC": "D:/Sasha/subversion/trunk/AuthorshipAttributionRussianTexts/results/acc_results.txt",
+			"PR": "D:/Sasha/subversion/trunk/AuthorshipAttributionRussianTexts/results/pr_results.txt",
+			"RC": "D:/Sasha/subversion/trunk/AuthorshipAttributionRussianTexts/results/rc_results.txt",
+			"F": "D:/Sasha/subversion/trunk/AuthorshipAttributionRussianTexts/results/f_measure_results.txt",
+			"AUC": "D:/Sasha/subversion/trunk/AuthorshipAttributionRussianTexts/results/auc_results.txt"
+		}
+
+	}
+
+}
